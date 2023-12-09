@@ -5,14 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inspiration Assignment</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel=”stylesheet”
-    href=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css”rel=”nofollow”
-    integrity=”sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm”
-    crossorigin=”anonymous”/>
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Roboto"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
     />
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
@@ -23,6 +37,7 @@
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About Bedbugs</a></li>
+        <li><a href="#identification">Identification</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#prevention">Prevention</a></li>
         <li><a href="#treatment">Treatment</a></li>
@@ -36,6 +51,36 @@
           Learn everything you need to know about bedbugs and how to deal with
           them.
         </p>
+        <div
+          id="carouselBedBugs"
+          class="carousel slide"
+          data-ride="carousel"
+          data-interval="5000"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="d-block w-100"
+                src="images/bedbug1.jpg"
+                alt="First slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="images/bedbug2.jpg"
+                alt="Second slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="images/bedbug3.jpg"
+                alt="Third slide"
+              />
+            </div>
+          </div>
+        </div>
       </section>
 
       <section id="about">
@@ -44,11 +89,17 @@
           Bedbugs are small, reddish-brown parasitic insects that feed on the
           blood of humans and animals. They are often found in beds and
           furniture, but they can inhabit any areas that are small and cozy such
-          as in between wood floors, vents, or even outlets. As long as there is
-          a host for bedbugs to feed on, they will continue for as long as they
-          can.
+          as in between wood floors, vents, or even outlets. They are spread
+          through contact and can latch onto items and luggage that a person is
+          carrying which will lead their way into their home to feed on their
+          host(s). As long as there is a host for bedbugs to feed on, they will
+          continue for as long as they live.
         </p>
-        <!-- Add more information about bedbugs here -->
+        <p>
+          The bedbug's scientific name is <em>Cimex lectularius</em>. Their
+          lifecycle consists of 5 larval stages:
+        </p>
+        <img src="images/lifecycle.jpg" alt="Lifecycle." />
       </section>
 
       <section id="experience">
@@ -76,8 +127,24 @@
           bedbugs at home. I vacuumed everywhere in each room and found hidden
           bugs laying underneath in tight areas of the bed frames, and then I
           set bedbug traps under my bed posts to catch them if they tried
-          crawling onto my bed which for the most part worked. But they kept on
+          crawling onto my bed which worked for the most part. But they kept on
           coming back so we ended up calling the exterminator anyway.
+          Nonetheless, my peace finally came back and I am hoping to spread some
+          things that I know about these pests that I accrued through first hand
+          experience.
+        </p>
+      </section>
+      <section id="identification">
+        <h2>Identification</h2>
+        <p>
+          Bedbugs have six legs with a pair of antennae and are brown or reddish
+          depending on if they have eaten recently or not. They are about the
+          size of an appleseed. The images at the top of the website should give
+          you an indicator of what these bugs look like. The characteristic that
+          will set them apart from other bugs with similar physical
+          characteristics such as fleas is their behavior. Bedbugs are not
+          erratic and move relatively slow. They do not fly but rather crawl
+          their way onto a location.
         </p>
       </section>
 
@@ -117,6 +184,8 @@
           <li><em>Use mattress covers.</em></li>
           <li>
             <em>Be cautious</em> when traveling to avoid bringing bedbugs home.
+            Make sure to clean your clothes directly after a vacation and keep
+            your bags in the garage.
           </li>
         </ul>
       </section>
@@ -152,7 +221,21 @@
         </ul>
       </section>
       <section id="overall">
-        <h2></h2>
+        <h2>Conclusion</h2>
+        <p>
+          One thing I learned from bedbugs is that they are extremely
+          intelligent. They will go at lengths to hide themselves from humans.
+          They are able to detect the changes in CO2 levels when a human sleeps,
+          so essentially they will only come out when you are asleep. Their
+          hiding spots are very well hidden and it is best to check in your
+          bedframe and really tear apart every corner of your room to find them.
+          If you do not do that, you will just go through the same suffering
+          like I did and go through a stage of denial. Perhaps its not bugs and
+          its your imagination. If you are facing a problem with bedbugs, take
+          them serious. Do not underestimate their will to live through
+          everything and annoy you constantly.
+        </p>
+        <p></p>
       </section>
     </main>
 
